@@ -1,0 +1,119 @@
+{
+  "tr": {
+    "nav": {
+      "home": "Ana Sayfa",
+      "hero": "Ana Sayfa",
+      "about": "Hakkımda",
+      "tech": "Teknoloji Yığını",
+      "projects": "Projeler",
+      "hobbies": "Hobilerim",
+      "experience": "Deneyim",
+      "contact": "İletişim",
+      "hireMe": "İşe Al"
+    },
+    "hero": {
+      "title": "Zafer Duran",
+      "subtitle": "Fullstack Developer",
+      "tagline": "Düşün. Kodla. Yarat.",
+      "description": "Prime Modality'de Cloud Security uygulamaları geliştiren, React ve Next.js teknolojilerinde uzman, modern web teknolojileri ile etkileyici dijital çözümler üreten Fullstack Developer.",
+      "viewProjects": "Projeleri Görüntüle",
+      "hireMe": "İşe Al"
+    },
+    "about": {
+      "title": "Hakkımda",
+      "description1": "23 yaşındayım ve Düzce Üniversitesi Bilgisayar Mühendisliği bölümünden mezun oldum. 2 yıllık Fullstack Developer deneyimim ile React, Next.js, TypeScript, Node.js ve .NET Core teknolojilerinde uzmanlaştım. Modern JavaScript framework'leri ile responsive ve kullanıcı dostu web uygulamaları geliştiriyorum.",
+      "description2": "Prime Modality'de Cloud Security CNAPP uygulaması geliştirme sürecinde yer aldım. AWS, Docker, Kubernetes gibi teknolojilerde kendimi sürekli güncel tutuyorum. Test-driven development yaklaşımı ile Cypress kullanarak otomatik test süreçleri geliştiriyorum.",
+      "yearsExperience": "Yıl Deneyim",
+      "techStackMastery": "Teknoloji Uzmanlığı",
+      "gpaScore": "Mezuniyet Notu"
+    },
+    "techStack": {
+      "title": "Teknoloji Yığını"
+    },
+    "hobbies": {
+      "title": "Hobilerim",
+      "subtitle": "Sürekli yeni hobiler edinmeyi seviyorum çünkü bu beni geliştirmeme ve hayatımı daha renkli ve keyifli hale getirmeme olanak tanıyor. Yeni şeyler denemek bana ilham veriyor ve her seferinde farklı bir dünyaya adım atmış gibi hissediyorum."
+    },
+    "projects": {
+      "title": "Öne Çıkan Projeler"
+    },
+    "experience": {
+      "title": "Deneyim"
+    },
+    "contact": {
+      "title": "İletişime Geç",
+      "name": "Adınız",
+      "email": "E-posta Adresiniz",
+      "message": "Mesajınız",
+      "sendMessage": "Mesaj Gönder",
+      "connectWithMe": "Benimle Bağlantı Kur"
+    },
+    "footer": {
+      "copyright": "© 2024 Zafer Duran. Tüm hakları saklıdır.",
+      "description": "Fullstack Developer olarak Cloud Security uygulamaları geliştiriyor, modern web teknolojileri ile etkileyici dijital çözümler yaratıyorum.",
+      "quickLinks": "Hızlı Linkler",
+      "connect": "Bağlantı",
+      "builtWith": "Bu site Next.js, TypeScript ve Framer Motion ile geliştirilmiştir.",
+      "email": "zaferdrn0@gmail.com"
+    }
+  },
+  "en": {
+    "nav": {
+      "home": "Home",
+      "hero": "Home",
+      "about": "About",
+      "tech": "Tech Stack",
+      "projects": "Projects",
+      "hobbies": "Hobbies",
+      "experience": "Experience",
+      "contact": "Contact",
+      "hireMe": "Hire Me"
+    },
+    "hero": {
+      "title": "Zafer Duran",
+      "subtitle": "Fullstack Developer",
+      "tagline": "Think. Code. Create.",
+      "description": "Fullstack Developer developing Cloud Security applications at Prime Modality, expert in React and Next.js technologies, creating impressive digital solutions with modern web technologies.",
+      "viewProjects": "View Projects",
+      "hireMe": "Hire Me"
+    },
+    "about": {
+      "title": "About Me",
+      "description1": "I'm 23 years old and graduated from Düzce University Computer Engineering. With 2 years of Fullstack Developer experience, I specialize in React, Next.js, TypeScript, Node.js and .NET Core technologies. I develop responsive and user-friendly web applications with modern JavaScript frameworks.",
+      "description2": "I participated in developing Cloud Security CNAPP application at Prime Modality. I continuously keep myself updated on technologies like AWS, Docker, Kubernetes. I develop automated test processes using Cypress with a test-driven development approach.",
+      "yearsExperience": "Years Experience",
+      "techStackMastery": "Tech Expertise",
+      "gpaScore": "Graduation GPA"
+    },
+    "techStack": {
+      "title": "Tech Stack"
+    },
+    "hobbies": {
+      "title": "My Hobbies",
+      "subtitle": "I love constantly acquiring new hobbies because it allows me to improve myself and make my life more colorful and enjoyable. Trying new things inspires me, and each time I feel as if I've stepped into a different world."
+    },
+    "projects": {
+      "title": "Featured Projects"
+
+    },
+    "experience": {
+      "title": "Experience"
+    },
+    "contact": {
+      "title": "Get In Touch",
+      "name": "Your Name",
+      "email": "Your Email",
+      "message": "Your Message",
+      "sendMessage": "Send Message",
+      "connectWithMe": "Connect with me"
+    },
+    "footer": {
+      "copyright": "© 2024 Zafer Duran. All rights reserved.",
+      "description": "As a Fullstack Developer, I develop Cloud Security applications and create impressive digital solutions with modern web technologies.",
+      "quickLinks": "Quick Links",
+      "connect": "Connect",
+      "builtWith": "This site is built with Next.js, TypeScript and Framer Motion.",
+      "email": "zaferdrn0@gmail.com"
+    }
+  }
+} 

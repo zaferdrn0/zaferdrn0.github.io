@@ -1,0 +1,67 @@
+[
+  {
+    "id": 1,
+    "title": {
+      "en": "Hardware Customization",
+      "tr": "Donanım Özelleştirme"
+    },
+    "description": {
+      "en": "I enjoy customizing and modifying electronic devices.",
+      "tr": "Elektronik cihazları özelleştirmeyi ve modifiye etmeyi seviyorum."
+    },
+    "icon": "Settings",
+    "gradient": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)"
+  },
+  {
+    "id": 2,
+    "title": {
+      "en": "Aviation",
+      "tr": "Havacılık"
+    },
+    "description": {
+      "en": "I'm passionate about aviation and everything related to aircraft and flight.",
+      "tr": "Havacılık ve uçaklarla ilgili her şeye karşı tutkulum var."
+    },
+    "icon": "Plane",
+    "gradient": "linear-gradient(135deg, #0f3460 0%, #0e4b99 100%)"
+  },
+  {
+    "id": 3,
+    "title": {
+      "en": "Games",
+      "tr": "Oyunlar"
+    },
+    "description": {
+      "en": "Playing games with rich narratives transports me to captivating worlds.",
+      "tr": "Zengin anlatılara sahip oyunlar oynamak beni büyüleyici dünyalara taşıyor."
+    },
+    "icon": "Gamepad2",
+    "gradient": "linear-gradient(135deg, #1e3c72 0%, #2a5298 100%)"
+  },
+  {
+    "id": 4,
+    "title": {
+      "en": "Film & Series",
+      "tr": "Film & Diziler"
+    },
+    "description": {
+      "en": "I enjoy watching films and TV series.",
+      "tr": "Film ve TV dizilerini izlemeyi seviyorum."
+    },
+    "icon": "Film",
+    "gradient": "linear-gradient(135deg, #89f7fe 0%, #66a6ff 100%)"
+  },
+  {
+    "id": 5,
+    "title": {
+      "en": "Music",
+      "tr": "Müzik"
+    },
+    "description": {
+      "en": "Listening to and creating music is both enjoyable and relaxing for me.",
+      "tr": "Müzik dinlemek ve yaratmak benim için hem keyifli hem de rahatlatıcı."
+    },
+    "icon": "Music",
+    "gradient": "linear-gradient(135deg, #e17055 0%, #f8b500 100%)"
+  }
+]

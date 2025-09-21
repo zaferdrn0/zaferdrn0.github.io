@@ -1,0 +1,84 @@
+{
+  "tr": [
+    {
+      "company": "Prime Modality",
+      "location": "Düzce, Türkiye",
+      "role": "Frontend Developer",
+      "period": "Haziran 2023 – Günümüz",
+      "description": "Cloud Security CNAPP (Cloud-Native Application Protection Platform) uygulaması geliştirme. Next.js ve TypeScript ile responsive arayüzler. AWS altyapısı (EC2, ECS, Fargate, CloudFormation) deneyimi. Docker ve Kubernetes ile deployment süreçleri. Cypress test otomasyonu geliştirme.",
+      "highlights": [
+        "Cloud Workload Protection uygulaması geliştirme",
+        "Modern web teknolojileri ile güvenli uygulamalar",
+        "AWS container teknolojileri deneyimi",
+        "Test otomasyonu ve kalite güvence"
+      ]
+    },
+    {
+      "company": "Freelance",
+      "location": "Remote",
+      "role": "Software Developer",
+      "period": "2021 – Günümüz",
+      "description": "Çeşitli projeler için yazılım geliştirme ve teknik danışmanlık hizmetleri. React, Next.js ve TypeScript teknolojileri ile web uygulamaları geliştirme. Modern JavaScript framework'leri ile responsive ve kullanıcı dostu çözümler.",
+      "highlights": [
+        "React ve Next.js projeleri",
+        "TypeScript ile tip güvenli geliştirme",
+        "Responsive web uygulamaları",
+        "Teknik danışmanlık hizmetleri"
+      ]
+    },
+    {
+      "company": "Düzce Üniversitesi",
+      "location": "Düzce, Türkiye",
+      "role": "Bilgi İşlem Stajyeri",
+      "period": "2022 Yaz Dönemi",
+      "description": "Üniversite bilgi işlem departmanında staj. Sistem yönetimi, web geliştirme ve teknik destek süreçlerinde deneyim kazanma. Akademik ortamda teknoloji altyapısı ile çalışma deneyimi.",
+      "highlights": [
+        "Sistem yönetimi deneyimi",
+        "Web geliştirme projeleri",
+        "Teknik destek süreçleri",
+        "Akademik IT altyapısı"
+      ]
+    }
+  ],
+  "en": [
+    {
+      "company": "Prime Modality",
+      "location": "Düzce, Turkey",
+      "role": "Frontend Developer",
+      "period": "June 2023 – Present",
+      "description": "Cloud Security CNAPP (Cloud-Native Application Protection Platform) application development. Responsive interfaces with Next.js and TypeScript. AWS infrastructure (EC2, ECS, Fargate, CloudFormation) experience. Docker and Kubernetes deployment processes. Cypress test automation development.",
+      "highlights": [
+        "Cloud Workload Protection application development",
+        "Secure applications with modern web technologies",
+        "AWS container technologies experience",
+        "Test automation and quality assurance"
+      ]
+    },
+    {
+      "company": "Freelance",
+      "location": "Remote",
+      "role": "Software Developer",
+      "period": "2021 – Present",
+      "description": "Software development and technical consulting services for various projects. Web application development with React, Next.js and TypeScript technologies. Responsive and user-friendly solutions with modern JavaScript frameworks.",
+      "highlights": [
+        "React and Next.js projects",
+        "Type-safe development with TypeScript",
+        "Responsive web applications",
+        "Technical consulting services"
+      ]
+    },
+    {
+      "company": "Düzce University",
+      "location": "Düzce, Turkey",
+      "role": "IT Department Intern",
+      "period": "Summer 2022",
+      "description": "Internship in university IT department. Gaining experience in system management, web development and technical support processes. Working experience with technology infrastructure in academic environment.",
+      "highlights": [
+        "System management experience",
+        "Web development projects",
+        "Technical support processes",
+        "Academic IT infrastructure"
+      ]
+    }
+  ]
+}

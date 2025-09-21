@@ -1,0 +1,24 @@
+[
+  {
+    "title": "Personal Portfolio Website",
+    "description": "Modern responsive portfolio built with Next.js and TypeScript, featuring multilingual support and smooth animations",
+    "tech": ["Next.js", "TypeScript", "Framer Motion", "CSS Modules"],
+    "image": "/project1.png",
+    "github": "https://github.com/zaferdrn0",
+    "demo": "https://zaferduran.dev"
+  },
+  {
+    "title": "Collaborative Online IDE",
+    "description": "Real-time collaborative code editor supporting multiple programming languages. Developers can write code together simultaneously, compile and execute code online, view outputs in real-time, and save their work for future editing. Built with WebSocket technology for seamless real-time collaboration.",
+    "tech": ["HTML", "CSS", "JavaScript", "WebSocket", "Node.js", "Real-time Collaboration"],
+    "image": "/project2.png",
+    "github": "https://github.com/zaferdrn0"
+  },
+  {
+    "title": "Automotive Service Platform",
+    "description": "Comprehensive automotive service platform where users can input their vehicle make, model, and required services to find nearby auto shops. Features include shop listings with ratings and reviews, price comparisons, location-based search, and integrated review system. Users can rate services and leave feedback to help others make informed decisions.",
+    "tech": ["React", "Node.js", "MongoDB", "Express", "Maps API", "Rating System"],
+    "image": "/project3.png",
+    "github": "https://github.com/zaferdrn0"
+  }
+] 

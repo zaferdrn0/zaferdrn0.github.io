@@ -1,0 +1,113 @@
+:root {
+  /* Primary Colors - Orange/Red Theme */
+  --primary-color: #f97316;
+  --primary-dark: #ea580c;
+  --primary-light: #fb923c;
+  
+  /* Secondary Colors */
+  --secondary-color: #ef4444;
+  --secondary-dark: #dc2626;
+  --secondary-light: #f87171;
+  
+  /* Accent Colors */
+  --accent-color: #fbbf24;
+  --accent-dark: #f59e0b;
+  
+  /* Background Colors */
+  --bg-primary: var(--bg-primary);
+  --bg-secondary: #1e293b;
+  --bg-tertiary: #334155;
+  
+  /* Text Colors */
+  --text-primary: #ffffff;
+  --text-secondary: #cbd5e1;
+  --text-muted: #94a3b8;
+  
+  /* Border Colors */
+  --border-primary: rgba(251, 146, 60, 0.3);
+  --border-secondary: rgba(255, 255, 255, 0.1);
+  
+  /* Shadow Colors */
+  --shadow-primary: rgba(249, 115, 22, 0.3);
+  --shadow-secondary: rgba(0, 0, 0, 0.3);
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+  font-family: 'Exo 2', 'Rajdhani', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+  font-weight: 400;
+  font-feature-settings: 'cv02', 'cv03', 'cv04', 'cv11';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  background: linear-gradient(135deg, #1a1b26 0%, #24283b 50%, #292e42 100%);
+  color: #ffffff;
+  min-height: 100vh;
+}
+
+/* Retro Font Styles */
+h1, h2, h3, .logo, .title {
+  font-family: 'Orbitron', 'Exo 2', monospace;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+}
+
+.navbar, .nav-link {
+  font-family: 'Rajdhani', 'Exo 2', sans-serif;
+  font-weight: 500;
+  letter-spacing: 0.025em;
+}
+
+.code, .monospace {
+  font-family: 'JetBrains Mono', 'Courier New', monospace;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(135deg, var(--primary-color), var(--primary-dark));
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(135deg, var(--primary-dark), var(--secondary-color));
+}
+
+/* Selection */
+::selection {
+  background: rgba(249, 115, 22, 0.3);
+  color: #ffffff;
+}
+
+/* Focus styles */
+*:focus {
+  outline: 2px solid #4ecdc4;
+  outline-offset: 2px;
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
