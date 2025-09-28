@@ -1,0 +1,62 @@
+name: CI/CD - Next.js to Ubuntu via SSH
+
+on:
+  push:
+    branches: [ "main" ]
+  workflow_dispatch: {}
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install
+        run: npm ci
+
+      - name: Build (Next.js standalone)
+        env:
+          NODE_ENV: production
+          NEXT_TELEMETRY_DISABLED: 1
+        run: |
+          npm run build
+          mkdir -p out_pkg
+          cp -r .next/standalone/* out_pkg/
+          mkdir -p out_pkg/.next
+          cp -r .next/static out_pkg/.next/
+          if [ -d public ]; then cp -r public out_pkg/; fi
+          tar -czf build_artifact.tgz -C out_pkg .
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: build_artifact
+          path: build_artifact.tgz
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/download-artifact@v4
+        with:
+          name: build_artifact
+
+      - name: Setup SSH
+        run: |
+          install -m 700 -d ~/.ssh
+          echo "${{ secrets.SSH_PRIVATE_KEY }}" > ~/.ssh/id_ed25519
+          chmod 600 ~/.ssh/id_ed25519
+          ssh-keyscan -H "${{ secrets.SSH_HOST }}" >> ~/.ssh/known_hosts
+
+      - name: Upload package to server
+        run: |
+          scp -i ~/.ssh/id_ed25519 build_artifact.tgz "${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}:/tmp/zaferduran_build.tgz"
+
+      - name: Remote deploy
+        run: |
+          ssh -i ~/.ssh/id_ed25519 "${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}" \
+            "/usr/local/bin/deploy_zaferduran.sh /tmp/zaferduran_build.tgz && rm -f /tmp/zaferduran_build.tgz"
