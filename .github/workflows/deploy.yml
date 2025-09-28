@@ -2,7 +2,7 @@ name: CI/CD - Next.js to Ubuntu via SSH
 
 on:
   push:
-    branches: [ "main" ]
+    branches: ["main"]
   workflow_dispatch: {}
 
 jobs:
@@ -13,23 +13,23 @@ jobs:
 
       - uses: actions/setup-node@v4
         with:
-          node-version: '20'
-          cache: 'npm'
+          node-version: "20"
+          cache: "npm"
 
       - name: Install
         run: npm ci
 
-      - name: Build (Next.js standalone)
+      - name: Build (Next.js)
         env:
           NODE_ENV: production
           NEXT_TELEMETRY_DISABLED: 1
         run: |
           npm run build
           mkdir -p out_pkg
-          cp -r .next/standalone/* out_pkg/
-          mkdir -p out_pkg/.next
-          cp -r .next/static out_pkg/.next/
-          if [ -d public ]; then cp -r public out_pkg/; fi
+          cp -r .next out_pkg/
+          cp -r public out_pkg/
+          cp package.json out_pkg/
+          cp package-lock.json out_pkg/
           tar -czf build_artifact.tgz -C out_pkg .
 
       - uses: actions/upload-artifact@v4
